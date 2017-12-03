@@ -1,0 +1,3 @@
+[submodule "PaperSignals"]
+	path = PaperSignals
+	url = https://github.com/googlecreativelab/paper-signals.git

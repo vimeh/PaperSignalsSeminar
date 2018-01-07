@@ -1,20 +1,22 @@
-# Paper Signals, CU MakerSpace Seminar
+# Paper Signals, CUMakerSpace Seminar
 
-Columbia University MakerSpace ("CUMakersSpace") seminar derived from Google’s 2017 [Paper Signals](https://papersignals.withgoogle.com/#) experiment. This project provides a solid entry into an IoT (Internet of Things) framework and mindset, and is applicable to users and makers of any skill level. Please read [Google's tutorial](https://papersignals.withgoogle.com/getstarted) for any information that may have been overlooked and for any updates that have not (yet) been included in this adaptation.
+Columbia University MakerSpace ("CUMakerSpace") seminar derived from Google’s 2017 [Paper Signals](https://papersignals.withgoogle.com/#) experiment. This project provides a solid entry into an IoT (Internet of Things) framework and mindset, and is applicable to users and makers of any skill level. Please read [Google's tutorial](https://papersignals.withgoogle.com/getstarted) for any information that may have been overlooked, and for any updates that have not (yet) been included in this adaptation for the [Columbia University MakerSpace](make.columbia.edu).
 
-In above the link to Google's tutorial, there is a website with descriptive videos, clear context, and a very good motivation for this seminar. It is recommended that you read, watch, and mesh with the vibe of that website before continuing on with the rest of this tutorial (~7 min. of reading from this point).
+In Google's explanation video above-- which I highly recommend you watch-- there are descriptive videos, a clear context, and a very good motivation for this seminar. It is recommended that you read, watch, and mesh with the vibe of [Google's Voice Experiment's website](https://experiments.withgoogle.com/voice), or have some interest in IoT development before continuing on with the rest of this tutorial (~7 min. of reading from this point). Please reference [the Google tutorial for Paper Signals](https://papersignals.withgoogle.com/getstarted) until this document is updated with a complete walkthrough of the material.
 
 ## Authors
 
 Created by: [Nicole He](https://github.com/nicolehe) and [Dan Motzenbecker](https://github.com/dmotz)
 
-Adapted for CUMakerSpace by: [VK Mehta](http://vinaykmehta.com)
+Adapted for CUMakerSpace by: [Vinay K Mehta](http://vinaykmehta.com)
 
 Modified by:
 
-## Things You Need
+## Prereqs
 
-You will definitely need a phone with Google Assistant installed (so a phone running iOS or Android. Are there really still people reading this not using one of those two mobile operating systems? Anyway, the age of three competing mobile OS's is gone for the time being.).
+Firstly, if you haven't already seen [this project video](https://www.youtube.com/watch?v=5iJXYSfnxuQ) by Google, please watch it.
+
+Next, in order to configure your device, you will definitely need a device capable of running [Google Assistant](https://assistant.google.com) and logged into your Google Account.
 
 ### Electronic
 
@@ -39,6 +41,8 @@ Should the above bundle become unavailable, equivalent products on Adafruit are 
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 - [USB Driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) to communicate with microcontroller board
 
+Note: See [the Google tutorial here for Paper Signals here](https://papersignals.withgoogle.com/getstarted) for installation instructions and how to obtain the relevant API keys needed.
+
 ### Tools
 
 - Vinyl cutter
@@ -57,9 +61,10 @@ For now, we will follow the literal [instructions from Google](https://papersign
 
 ## TODO
 
-- More detailed instructions to design parts created in MakerSpace
-    - Replace most (if not all) paper cut with separate parts from 3D SketchUp tutorials or parts that can be cut from the laser cutter
-- Reduce dependency on Google hosted tutorial
+- Replace most (if not all) paper cut with separate parts from 3D SketchUp tutorials or parts that can be cut from the laser cutter
+  - Servo enclosure
+  - Other shared parts
+  - Signal specific parts (ie umbrella rotation attachment)
 
 ## Acknowledgements
 
@@ -74,9 +79,3 @@ http://www.apache.org/licenses/LICENSE-2.0
 
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-
-## Be Kind Clause by VK (aka "Don't Be A Dick Addendum")
-
-Further use of any "material" (code, language, images, etc. [anything deemed as such and appropriate by a future court]) from this work should be accompanied by a license to promote its free use, and to accredit its original authors appropriately (See *Authors* section above). There is no binding financial, legal, or otherwise material agreement accompanying this clause. It is simply an attempt to allow knowledge and information to be used in good faith among the public and for the greater good, and to attribute authors for their work, effort, and foresight. Current events and contemporary situations will always make it difficult to evaluate the intent of any given language in legalese, and one can only hope that such intent are understood as they were derived and applied in the sense in which they were created. Inclusion of a similar clause, or any message, to the same effect as the above, in any work derived from this work, would be appreciated by the original forker (VKMehta).
-
-Please, be kind.
